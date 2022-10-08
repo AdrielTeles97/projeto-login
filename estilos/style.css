@@ -12,10 +12,11 @@
     box-sizing: border-box;
 }
 
-body, html {
+body,html {
     background-color: #5f2c52;
-    height: 10vh;
+    height: 100vh;
     width: 100vw;
+    
 }
 
 main {
@@ -35,6 +36,9 @@ section#login {
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.479);
+
+    transition: width .4s; height: .4s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
@@ -48,6 +52,4 @@ section#login > div#imagem {
 section#login > div#formulario {
     display: block;
     padding: 10px;
-    
-
 }
